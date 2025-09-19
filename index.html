@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 <script src="javascript.js"></script>
 <body>
   <!-- Header -->
@@ -104,9 +104,7 @@
           <div class="content">
             <h3>Logo Designs</h3>
             <p class="subtle">Unique, professional brand logos crafted for businesses.</p>
-   <a class="btn" href="https://drive.google.com/drive/folders/1SqVI5snfLSjxbpRPPBYu7dkKt76Fr8De
-" target="_blank" rel="noopener">View Album</a>
-
+            <a class="btn" href="https://drive.google.com/drive/folders/1SqVI5snfLSjxbpRPPBYu7dkKt76Fr8De" target="_blank" rel="noopener">View Album</a>
           </div>
         </article>
         <article class="work-card">
@@ -126,7 +124,7 @@
           <div class="content">
             <h3>Portfolio Website</h3>
             <p class="subtle">Responsive and clean portfolio layouts built with HTML & CSS.</p>
-             <a class="btn" href=" https://janitsingh05.github.io/portfolio-website/" target="_blank" rel="noopener">View Portfolio</a>
+             <a class="btn" href="https://janitsingh05.github.io/portfolio-website/" target="_blank" rel="noopener">View Portfolio</a>
           </div>
         </article>
         <article class="work-card">
@@ -144,7 +142,6 @@
   </section>
 
   <!-- Internship -->
-    <!-- Internship -->
   <section id="internship">
     <div class="container">
       <h2 class="section-title"><span class="dot"></span> Internship</h2>
@@ -166,7 +163,6 @@
       </div>
     </div>
   </section>
-
 
   <!-- Contact -->
   <section id="contact">
@@ -203,12 +199,8 @@
     <div class="container">© <span id="year"></span> Janit Singh. All rights reserved.</div>
   </footer>
 
-  
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
-
-
-
-
-
-
